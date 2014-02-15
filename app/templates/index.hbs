@@ -1,9 +1,46 @@
-<h2>Welcome to Tapas with Ember</h2>
-<p>
-  You are running in the {{env.name}} environment. yi
-</p>
-<ul>
-  {{#each item in content}}
-    <li>{{item}}</li>
-  {{/each}}
-</ul>
+<h1 class="title">HANGMAN WITH EMBER</h1>
+
+
+<div class="wrap">
+  <div class="col">
+
+    <div class="guess">
+      <input type="text" class="man-input"/>
+      <ul>
+
+      </ul>
+    </div>
+    <div class="life-and-hint">
+
+      <div class="life">
+        <div></div>
+        <div></div>
+        <div class="lost"></div>
+      </div>
+      <div class="hint">
+        <h3><b>?</b> <i>A country</i></h3>
+      </div>
+
+    </div>
+    <div class="problem">
+      <input disabled />
+      <input disabled />
+      <input disabled />
+      <input disabled />
+      <input disabled />
+    </div>
+
+  </div>
+  <div class="col">
+
+      <div class="scores">
+        <h1 class="title">SCORE</h1>
+        <ul>
+          <li>300</li>
+          <li>150</li>
+          <li>30</li>
+        </ul>
+      </div>
+
+  </div>
+</div>

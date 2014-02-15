@@ -1,0 +1,73 @@
+body, html{
+  background: #eee;
+  padding: 0;
+  margin: 0;
+  font-family: tahoma, arial;
+}
+.wrap{
+  width: 100%;
+}
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.col{
+  width: 41%;
+  padding: 1%;
+  margin: 3%;
+  display: inline-block;
+  min-height: 220px;
+  vertical-align: top;
+  text-align: center;
+  background: #fff;
+  box-shadow: 0px 0px 3px #ccc;
+}
+.title{
+  font-weight: 800;
+  color: #69c;
+  text-align: center;
+  font-size: 3em;
+  text-shadow: 1px 1px 0px #fff, 2px 3px 0px #fff, 3px 3px 0px #fff, 4px 4px 0px #ccc;
+}
+.man-input{
+  width: 60px;
+  font-size: 7em;
+  padding: 0px 30px 10px;
+  margin-bottom: 0.5em;
+  border: 14px solid #ccc;
+}
+.problem input{
+  display: inline-block;
+  font-size: 35px;
+  border: 4px solid #eee;
+  height: 30px;
+  width: 20px;
+  padding: 2px 8px 6px;
+}
+.scores ul li{
+  background: #F7A199;
+  padding: 2px 4px;
+  margin-bottom: 1px;
+  font-size: 2em;
+  color: #fff;
+  font-weight: bold;
+}
+.life{
+  width: 100%;
+  height: 20px;
+  display: block;
+}
+.life div{
+  width: 32%;
+  background: #49C584;
+  display: inline-block;
+  height: 20px;
+}
+.life .lost{
+  background: #FC6969;
+}
+.hint h3 b{
+  background: #EBD118;
+  padding: 2px 8px;
+}
