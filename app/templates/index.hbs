@@ -3,16 +3,51 @@
 
 <div class="wrap">
   <div class="col">
-
-    <div class="guess">
-      <input type="text" class="man-input"/>
-      <ul>
-
-      </ul>
+    <div class="problem">
+      {{ current_problem.word }}
+      <input disabled />
+      <input disabled />
+      <input disabled />
+      <input disabled />
+      <input disabled />
     </div>
+    <br />
+    <div class="guess">
+      <input value="q" type="button" />
+      <input value="w" type="button" />
+      <input value="e" type="button" />
+      <input value="r" type="button" />
+      <input value="t" type="button" />
+      <input value="y" type="button" />
+      <input value="u" type="button" />
+      <input value="i" type="button" />
+      <input value="o" type="button" />
+      <input value="p" type="button" />
+      <br />  
+      <input value="a" type="button" />
+      <input value="s" type="button" />
+      <input value="d" type="button" />
+      <input value="f" type="button" />
+      <input value="g" type="button" />
+      <input value="h" type="button" />
+      <input value="j" type="button" />
+      <input value="k" type="button" />
+      <input value="l" type="button" />
+      <br />
+      <input value="z" type="button" />
+      <input value="x" type="button" />
+      <input value="c" type="button" />
+      <input value="v" type="button" />
+      <input value="b" type="button" />
+      <input value="n" type="button" />
+      <input value="m" type="button" />
+    </div>
+    <br />
     <div class="life-and-hint">
 
       <div class="life">
+        <div></div>
+        <div></div>
         <div></div>
         <div></div>
         <div class="lost"></div>
@@ -22,16 +57,9 @@
       </div>
 
     </div>
-    <div class="problem">
-      <input disabled />
-      <input disabled />
-      <input disabled />
-      <input disabled />
-      <input disabled />
-    </div>
 
   </div>
-  <div class="col">
+  <div class="col last">
 
       <div class="scores">
         <h1 class="title">SCORE</h1>
