@@ -40,7 +40,7 @@ ul{
   margin-bottom: 0.5em;
   border: 14px solid #ccc;
 }
-.problem input, .guess input{
+.guess input{
   display: inline-block;
   font-size: 28px;
   height: 48px;
@@ -50,8 +50,14 @@ ul{
   border-radius: 2px;
   box-shadow: 1px 1px 0px #666;
 }
-.problem input{
+.problem .word-wrap{
   border-bottom: 2px solid #666;
+  display: inline-block;
+  font-size: 30px;
+  width: 30px;
+  margin: 2px;
+  vertical-align: middle;
+  height: 38px;
 }
 .scores ul li{
   background: #F7A199;
@@ -66,13 +72,15 @@ ul{
   height: 20px;
   display: block;
   box-shadow: 0px 0px 1px #999;
-  padding: 4px 0px;
+  padding: 4px 0.5%;
+  text-align: left;
 }
 .life div{
   width: 19%;
   background: #49C584;
   display: inline-block;
   height: 20px;
+  margin: 0 0.5%
 }
 .life .lost{
   background: #FC6969;
@@ -80,4 +88,7 @@ ul{
 .hint h3 b{
   background: #EBD118;
   padding: 2px 8px;
+}
+.hide{
+  display: none;
 }

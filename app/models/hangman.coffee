@@ -23,5 +23,30 @@ module.exports = App.Hangman.FIXTURES =
       id: 4,
       word: "atombomb",
       hint: "Science"
+    },
+    {
+      id: 5,
+      word: "neutron",
+      hint: "Science"
+    },
+    {
+      id: 6,
+      word: "cell",
+      hint: "Biology"
+    },
+    {
+      id: 7,
+      word: "decode",
+      hint: "Computers"
+    },
+    {
+      id: 8,
+      word: "monalisa",
+      hint: "Arts"
+    },
+    {
+      id: 9,
+      word: "venice",
+      hint: "A place"
     }
   ]

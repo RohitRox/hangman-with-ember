@@ -4,12 +4,13 @@
 <div class="wrap">
   <div class="col">
     <div class="problem">
-      {{ current_problem.word }}
-      <input disabled />
-      <input disabled />
-      <input disabled />
-      <input disabled />
-      <input disabled />
+      {{#each current_word }}
+        <div class="word-wrap">
+          <span {{bind-attr class="active:show:hide"}}>
+            {{letter}}
+          </span>
+        </div>
+      {{/each}}
     </div>
     <br />
     <div class="guess">
@@ -47,14 +48,13 @@
     <div class="life-and-hint">
 
       <div class="life">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div class="lost"></div>
+        {{life_blocks life}}
       </div>
       <div class="hint">
-        <h3><b>?</b> <i>A country</i></h3>
+        <h3>
+          <b>?</b>
+          <i>{{current_problem.hint}}</i>
+        </h3>
       </div>
 
     </div>
@@ -63,11 +63,11 @@
   <div class="col last">
 
       <div class="scores">
-        <h1 class="title">SCORE</h1>
+        <h1 class="title">SCORE <small>Best: {{best}}</small></h1>
         <ul>
-          <li>300</li>
-          <li>150</li>
-          <li>30</li>
+          {{#each scores}}
+            <li>{{value}}</li>
+          {{/each}}
         </ul>
       </div>
 
