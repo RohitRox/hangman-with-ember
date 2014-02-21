@@ -2,8 +2,10 @@
 
 A simple hangman game with emberjs. Doesn't have an actual hangman but gameplay is preserved.
 
-Demo: [here](https://github.com/RohitRox/hangman-with-ember)
+![hangman with emberjs](http://rohitrox.github.io/images/blog_post_images/hangman-ember.png)
 
+Demo: [Launch](https://github.com/RohitRox/hangman-with-ember)
+Blog: [http://rohitrox.github.io/2014/02/20/hangman-game-with-emberjs/](http://rohitrox.github.io/2014/02/20/hangman-game-with-emberjs/)
 # How to Run
 
 ```
@@ -12,5 +14,4 @@ cd project
 cake server
 ```
 
-Thanks:
-@dgtm
+Built using brunch, lots of love and help from @dgtm
